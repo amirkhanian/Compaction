@@ -117,7 +117,9 @@ pdfkeywords={}
 %   added on title page
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \large Dr. Armen Amirkhanian, P.E.\\
+    \normalsize Dr. Olugbenro Ogunrinde (Reviewer)\\
     \normalsize Sam Prather (Reviewer)\\
+    \normalsize Eleanor ``Lea'' Skelton, P.E. (Reviewer)\\
 \vfill
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	The DOI is automated based on metadata.	
@@ -194,9 +196,16 @@ The following specifications are optional, but they are listed here in the event
 \label{sec:intro}
 \pagenumbering{arabic}
 \normalsize 
-The standard Proctor test has been around for nearly 80 years. It is a reliable workhorse test method that provides valuable data for design and construction. A known weight is repeatedly dropped from a constant height to compact a soil specimen in a cylindrical mold. The mass and volume are determined and the resulting unit weight can be calculated. This is done for a series of moisture contents to establish what is called the moisture-density curve.
+The standard Proctor test has been around for nearly 80 years. It is a reliable workhorse test method that provides valuable data for design and construction. A known weight is repeatedly dropped from a constant height to compact a soil specimen in a cylindrical mold. The mass and volume of the soil are determined and the resulting unit weight can be calculated. This is done for a series of moisture contents to establish what is called the moisture-density curve.
 
-The standard Proctor test, ASTM D698, simulates the compaction achieved with relatively small compaction equipment, such as hand tampers, vibratory walk-behind compactors, jumping jacks, etc. Modern virbatory roller compactors can put significant compactive effort into the soil. There is a modified Proctor test, ASTM D1557, which better simulates the compaction seen when using large compaction equipment. The primary difference between the two methods is the weight and height of the drop for the compaction. The remainder of the procedure is nearly identical.
+The standard Proctor test, ASTM D698, simulates the compaction achieved with relatively small compaction equipment, such as hand tampers, vibratory walk-behind compactors, jumping jacks, etc. Modern virbatory roller compactors can put significant compactive effort into the soil. There is a modified Proctor test, ASTM D1557, which better simulates the compaction seen when using large compaction equipment. The primary difference between the two methods is the weight and height of the drop for the compaction (Fig. \ref{fig:proctorhammer}). The remainder of the procedure is nearly identical.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{GEO_5756.jpg}
+    \caption{Comparison between the standard proctor hammer (background) and the modified proctor hammer (foreground).}
+    \label{fig:proctorhammer}
+\end{figure}
 
 \subsection{Objectives}
 \label{ssec:headingscap}
@@ -219,7 +228,14 @@ At the completion of this lab exercise, you should be able to:
 The standard Proctor test procedure is divided into three parts: preparation, execution, and analysis. While the test can be run on moist and dry samples, it is preferred that the test be run on moist samples (ASTM D698 \S10.2). Additionally, samples should not be reused for further compaction per ASTM D698 \S10.1.1. You will be provided with sufficient moist material that you will be able to run three compaction tests without needing to reuse the soil.
 
 \subsubsection{Preparation}
-You will need three pieces of equipment for this procedure: compaction hammer, compaction mold, three sample containers, and a scale. For the standard Proctor method, the hammer is 5.5 lbs. Since the soil is relatively fine, a 4-inch diameter mold is appropriate.
+You will need three pieces of equipment for this procedure: compaction hammer, compaction mold, three sample containers, and a scale. For the standard Proctor method, the hammer is 5.5 lbs. Since the soil is relatively fine, a 4-inch diameter mold is appropriate (Fig. \ref{fig:proctormold}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{GEO_5751.jpg}
+    \caption{Example of a 4-inch diameter proctor mold. The taller piece goes on first followed by the shorter piece.}
+    \label{fig:proctormold}
+\end{figure}
 
 You will need to determine the empty weight of the compaction mold. While we can remove the sample from the mold most of the time, we sometimes lose too much material. We will obtain the weight of the compacted soil while still in the mold and will need to subtract the weight of the mold from the measurement. You will be provided with the volume of the mold for use in calculations during the analysis portion.
 
@@ -286,6 +302,31 @@ There is another line we can plot on our chart to check the reasonableness of th
 \subsection{Summary}
 You have successfully run a standard Proctor test. As you likely noticed, the process is relatively straightforward, albeit time-consuming. This is a routine test that is run on nearly every type of civil engineering project when soil is disturbed or manipulated. The maximum dry unit weight is used in numerous design calculations to determine bearing capacity, percent compaction, and pavement structural layer capacity among other factors.
 
+\pagebreak
+\section{Deliverables}
+For this laboratory exercise, the deliverables are relatively straightforward. We just need the moisture density curve. However, in certain geotechnical reports, you would be required to ``show your work''. An example of the required ``work'' to be shown is provided in Appendix A. At a minimum, your deliverable should contain:
+\begin{itemize}
+    \item Height and width of specimen mold
+    \item Volume of specimen mold
+    \item Some method to identify each trial
+    \item All masses required to calculate the unit weight and moisture content
+    \item Total, or moist, unit weight for each trial
+    \item Dry unit weight for each trial
+    \item Maximum dry unit weight
+    \item Optimum moisture content
+    \item Chart of moisture-density relationship with annotations indicating the maximum dry unit weight
+    \item On the moisture-density chart, plot the zero-air void line using the assumed soil solids specific gravity of 2.75
+\end{itemize}
+
+You should easily be able to fit all the required information on a single page. A large part of this exercise is professional formatting. You will likely spend more time making the page(s) look good than performing the actual calculations and this is okay! Professional engineers will typically use software specifically designed to make nice sheets. However, there are still some firms and engineers that do it manually. Most of the time the entire page is created in MS Excel due to the insane number of rows and columns needed. Here are some DOs and DON'Ts to help guide you in making a professional submission:
+
+\begin{itemize}
+    \item DO be consistent with decimal places and where applicable, follow the ASTM rules for number of decimal places
+    \item DO indicate units properly
+    \item DON'T use a font size smaller than 10pt
+    \item DON'T use shading (i.e. shading alternating rows)
+\end{itemize}
+
 
 
 %\section*{References}
@@ -296,14 +337,14 @@ You have successfully run a standard Proctor test. As you likely noticed, the pr
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Please use the techpubs BibTeX style when compiling bibliography, or follow the instructions on tinyurl.com/techpubsnist to format your .bib / .bbl file appropriately.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\pagebreak
+\pagebreak
 
-%\section*{Appendix A: Example Gradation Worksheet}
-%\label{AppendixA}
-%\addcontentsline{toc}{section}{Appendix A: Example Gradation Worksheet}
-%\begin{center}
-%    \includegraphics[width=1\linewidth]{Example_Sieve_Analysis_Worksheet.eps}
-%\end{center}
+\section*{Appendix A: Example Proctor Worksheet}
+\label{AppendixA}
+\addcontentsline{toc}{section}{Appendix A: Example Proctor Worksheet}
+\begin{center}
+    \includegraphics[width=1\linewidth]{Example_Compaction_Report.eps}
+\end{center}
 
 %\pagebreak
 %\section*{Appendix B: Change Log}
